@@ -19,8 +19,8 @@ function calcularMedia() {
 
   let mensagem = "";
   // evite mexer no código acima!
-
 let media = (nota1 + nota2 + nota3 + nota4 ) / 4;
+
 if (media === 0) {
 mensagem = "Infelizmente você zerou a prova"}
 else if (media >= 0.1 && media <= 3) {
